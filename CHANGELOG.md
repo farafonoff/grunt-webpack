@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/webpack-contrib/grunt-webpack/compare/v3.1.3...v5.0.0) (2019-11-18)
+
+
+### Bug Fixes
+
+* Drop support for node < 6.11.5 and webpack < 4 ([36aba57](https://github.com/webpack-contrib/grunt-webpack/commit/36aba57))
+* Read raw config in tasks to avoid circular dependency ([570f378](https://github.com/webpack-contrib/grunt-webpack/commit/570f378))
+* Remove handling of templates in Plugins ([e2cf0cd](https://github.com/webpack-contrib/grunt-webpack/commit/e2cf0cd))
+* Update lodash ([5836231](https://github.com/webpack-contrib/grunt-webpack/commit/5836231))
+
+
+### BREAKING CHANGES
+
+* Ensure you are using node 6.11.5 or newer and webpack 4
+* Grunt templates will not be evaluated in Plugins anymore. Use lazy config loading instead.
+
+
+
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/webpack-contrib/grunt-webpack/compare/v3.1.3...v4.0.0) (2019-11-18)
+
+
+### Bug Fixes
+
+* Drop support for node < 6.11.5 and webpack < 4 ([36aba57](https://github.com/webpack-contrib/grunt-webpack/commit/36aba57))
+* Read raw config in tasks to avoid circular dependency ([570f378](https://github.com/webpack-contrib/grunt-webpack/commit/570f378))
+* Remove handling of templates in Plugins ([e2cf0cd](https://github.com/webpack-contrib/grunt-webpack/commit/e2cf0cd))
+* Update lodash ([5836231](https://github.com/webpack-contrib/grunt-webpack/commit/5836231))
+
+
+### BREAKING CHANGES
+
+* Ensure you are using node 6.11.5 or newer and webpack 4
+* Grunt templates will not be evaluated in Plugins anymore. Use lazy config loading instead.
+
+
+
 <a name="3.1.3"></a>
 ## [3.1.3](https://github.com/webpack-contrib/grunt-webpack/compare/v3.1.2...v3.1.3) (2018-09-02)
 
